@@ -1,0 +1,33 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    @for $i from 1 through 12 {
+        .col-#{$i}{
+            flex:0 0 auto;
+            width: $i * 8.15%;
+            padding: 10px;
+        }
+    }
+}
+
+$bglist: blue, red, yellow, green, brown;
+@each $bg in $bglist{
+    .bg-#{$bg}{
+        background-color: $bg;
+    }
+}
+
+.card{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+
+    .header{
+        border: 1px 0px;
+        padding: 10px;
+    }
+    .body{
+        padding: 10px;
+    }
+}

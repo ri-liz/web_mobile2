@@ -1,0 +1,100 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row .col-1 {
+  flex: 0 0 auto;
+  width: 8.15%;
+  padding: 10px;
+}
+.row .col-2 {
+  flex: 0 0 auto;
+  width: 16.3%;
+  padding: 10px;
+}
+.row .col-3 {
+  flex: 0 0 auto;
+  width: 24.45%;
+  padding: 10px;
+}
+.row .col-4 {
+  flex: 0 0 auto;
+  width: 32.6%;
+  padding: 10px;
+}
+.row .col-5 {
+  flex: 0 0 auto;
+  width: 40.75%;
+  padding: 10px;
+}
+.row .col-6 {
+  flex: 0 0 auto;
+  width: 48.9%;
+  padding: 10px;
+}
+.row .col-7 {
+  flex: 0 0 auto;
+  width: 57.05%;
+  padding: 10px;
+}
+.row .col-8 {
+  flex: 0 0 auto;
+  width: 65.2%;
+  padding: 10px;
+}
+.row .col-9 {
+  flex: 0 0 auto;
+  width: 73.35%;
+  padding: 10px;
+}
+.row .col-10 {
+  flex: 0 0 auto;
+  width: 81.5%;
+  padding: 10px;
+}
+.row .col-11 {
+  flex: 0 0 auto;
+  width: 89.65%;
+  padding: 10px;
+}
+.row .col-12 {
+  flex: 0 0 auto;
+  width: 97.8%;
+  padding: 10px;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-brown {
+  background-color: brown;
+}
+
+.card {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card .header {
+  border: 1px 0px;
+  padding: 10px;
+}
+.card .body {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style2.css.map */
